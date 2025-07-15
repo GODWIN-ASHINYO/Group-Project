@@ -1,0 +1,370 @@
+body{
+  border: px solid;
+  min-height: 800px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-shadow: 0px 0px px;
+  background-color:rgba(255, 255, 255, 0.986);
+  
+
+}
+
+
+
+.nav{
+  border: 1px slid green;
+  border-radius: 5PX;
+  height: 150px;
+  width: 100%;
+  padding: 5px;
+  gap: 5px;
+  box-shadow: 0px 0px 5px;
+}
+.ad{
+  border: 1px slid blue;
+  width: 100%;
+  height: 95px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo{
+  border: 1p soli;
+  height: 90%;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+.blg{
+  width: 90%;
+  height: 80%;
+}
+
+.add{
+  border: 1px solid;
+  width:70% ;
+  height: 90%;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url("images/fff.jpg");
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+text-align: center;
+}
+
+button{
+  background-color: white;
+  color: white;
+  height: 40px;
+  width: 100px;
+  font-weight: 600;
+  border-radius:5px ;
+  background: transparent;
+  border:2px solid white;
+  backdrop-filter:blur(50px);
+  
+}
+u{
+  border: px solid blue;
+  border: transparent;
+  border-bottom: 3px solid blue;
+}
+
+.list{
+  border: 1px slid;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+ul{
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+input{
+  width: 700px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+select{
+  width: 100px;
+  text-align: center;
+  font-size: 16px;
+  border: transparent;
+}
+
+.trend{
+  border: 1px slid;
+  height: 40px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: small;
+}
+.tt{
+  border: 1px solid black;
+  width: 150px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.932);
+  color: white;
+  text-align: center;
+padding-top: 10px;
+border-radius: 5px;
+background: transarent;
+backdrop-filter: blur(10px);
+}
+
+
+.box1{
+  border: 1px slid;
+  height: 600px;
+  width: 500px;
+  flex-grow: 1;
+  background-image: url("images/vanni.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 0px 1px 2px black;
+   color: white;
+   flex-direction: column;
+}
+
+.box2{
+  border: 1px slid;
+  height: 600px;
+  width: 400px;
+  flex-grow: 3;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: center;
+  justify-content: space-between;
+  box-shadow: 0px 0px 0px;
+  color: white;
+  
+}
+
+.card{
+  border: 1px slid;
+  height: 49%;
+  width: 49%;
+  display: flex;
+  flex-grow: 0;
+  flex-wrap: wrap;
+  box-shadow: 0px 1px 5px black;
+  border: transparent;
+
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  box-shadow: 0px 0px 5px;
+}
+
+ .card1{
+  border: 2px slid red;
+  height: 48%;
+  width: 98%;
+  background-image: url("images/snak.jpg");
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: transparent;
+  box-shadow: 01px 1px 5px black;
+
+ }
+ .dms{
+  border: 1px solid yellow;
+  width: 58%;
+  height: 90%;
+  border: transparent;
+  border-bottom: 2PX solid rgb(148, 62, 12);
+  display: flex;
+  align-items: flex-end;
+
+ }
+ .scd{
+   border: 1px solid yellow;
+  width: 39%;
+  height: 90%;
+  border: transparent;
+  border-bottom: 2PX solid blue;
+  display: flex;
+  align-items: flex-end;
+ }
+ SPAN{
+  border: 1PX solid rgb(0, 204, 255);
+  background-color: rgb(0, 204, 255);
+  color: white;
+  
+  
+ }
+
+ .box3{
+  border: 1px slid;
+  width: 950px;
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 0px;
+ }
+ .b3card1{
+  border: 1px slid;
+  height: 99%;
+  width: 50%;
+  box-shadow: 0px 0px 2px;
+ }
+ .time{
+  border: 1px slid;
+  width: 95%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 0px 1px;
+  border: transparent;
+ }
+
+ .time p{
+  color: rgba(0, 0, 0, 0.336);
+ }
+
+ .laptops{
+  height: 100%;
+  width: 50%;
+ }
+
+ .b3c1pic1{
+  border: 1px slid;
+  width: 100%;
+  height: 50%;
+  background-imge: url(images/toy.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ }
+ video{
+  width: 100%;
+  height: 80%;
+ }
+ .b3card2{
+  border: 1px slid;
+  height: 99%;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 0px px;
+ }
+ .b3c2pic1{
+  border: 1px slid;
+  height: 22%;
+  width: 99%;
+  display: flex;
+ }
+  H3{
+  margin-left: 20px;
+ }
+
+
+ .box4{
+  border: 1px slid;
+  height:800px ;
+  width: 650px;
+ }
+
+ .icon{
+  border: 1px slid;
+  width: 99%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 0px 5px;
+ }
+
+ .add1{
+  border: 1px solid;
+  width: 90%;
+  height: 60%;
+  background-image: url(images/fff.jpg);
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  font-size: larger;
+  border-radius: 10px;
+ }
+
+ .box5{
+  border: 1px slid;
+  height: 800px;
+  width: 950px;
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .b5card1{
+  border: 1px slid;
+  width: 49%;
+  height: 100%;
+  box-shadow: 0px 0px 5px;
+ }
+ .code{
+  width: 100%;
+  height: 50%;
+  border-radius: 0px;
+  box-shadow: 0px 0px 2px;
+ }
+
+ .box6{
+  border: 1px slid;
+  height: 800px;
+  width: 650px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ }
+
+ .b6card1{
+  border: 1px slid;
+  width: 48%;
+  height: 49%;
+flex-grow: 1;
+box-shadow: 0px 0px px;
+ }
+ .car{
+  width: 100%;
+  height: 50%;
+ }
+
+ @media screen and (max-width: 768px) {
+
+
+
+
+
+
+
+
+ }
+
+
+
+
