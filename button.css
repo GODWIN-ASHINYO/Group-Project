@@ -1,0 +1,51 @@
+body{
+    background-color: white;
+}
+
+div.first{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.distance{
+    margin-left: 500px;
+}
+
+.write{
+    color: orange;
+    border-bottom: 1px solid orange;
+    font-weight: 600;
+}
+
+ul.first{
+    display: flex;
+    list-style: none;
+    color: blue;
+    margin-left: 0px;
+}
+
+.list{
+    align-items: flex-start;
+    font-weight: 700;
+    text-transform: capitalize;
+    display: flex;
+    margin-right: 50px;
+    justify-content: space-between ;
+}
+
+.text1{
+    margin-left: 30px;
+    object-fit: contain;
+    box-shadow: 0px 5px 10px black;
+}
+
+.text2{
+    margin-left: 40px;
+    box-shadow: 0px 5px 10px black;
+}
+
